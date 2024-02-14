@@ -1,0 +1,88 @@
+
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+    
+    h1 {
+    text-align: center;
+    text-decoration: underline
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 900px;
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    label {
+      margin-bottom: 8px;
+      color: #333;
+      display: block;
+    
+    }
+
+    input, select {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    table {
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    thead {
+      background-color: #4caf50;
+      color: #fff;
+    }
+
+    td:last-child {
+      text-align: center;
+    }
+
+    button {
+      background-color: #f44336;
+    }
+
+    button:hover {
+      background-color: #d32f2f;
+    }
+
+    .btn_text{
+        text-decoration: none;
+    }
